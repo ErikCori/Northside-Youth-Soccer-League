@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/nysl_3.css">
+  <title>Registration Form</title>
+</head>
+
+<body>
+	<header>
+		<h1>Northside Youth Soccer League</h1>
+	</header>
+	<section>
+		<h2>Registration form</h2>
+		<div class="logo">
+    	<img src="nysl_logo.png">
+    </div>
+  	<div>
+  	<nav class="menu">
+		
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+  		<a href="contact.html">Contact</a>
+			<a href="game_info.html">Game Information</a>
+			<a href="rules.html">Rules</a>
+			<a href="#">Registration</a>
+		</nav>
+  	</div>
+		<form action="show_data.html" method="get">
+			<fieldset id="personal_info">
+			Player’s First Name:<input type="text" name="first_name">
+			Last Name:<input type="text" name="last_name"><br>
+			Street Address:<input type="text" name="street_address"><br>
+			City:<input type="text" name="city">
+			Zip Code:<input type="text" name="zip_code"><br>
+			Birth Date (mm/dd/yyyy):<input type="date" name="birth_date">	
+			Gender:
+			<label for="female"><input type="radio" name="gender" id="female" value="female	">Female</label>
+			<label for="male"><input type="radio" name="gender" id="male" value="male">Male</label><br>
+			Grade:
+			<label><input type="radio" name="grade">Pre-School</label>
+			<label><input type="radio" name="grade">1st</label>
+			<label><input type="radio" name="grade">2nd</label>
+			<label><input type="radio" name="grade">3rd </label>
+			<label><input type="radio" name="grade">4th</label>
+			<label><input type="radio" name="grade">5th</label><br>
+			Parent/Guardian:<input type="text" name="parent"><br>
+			Contact Phone:<input type="tel" name="user_phone">
+			Contact Email:<input type="email" name="user_email">
+			</fieldset>
+			<fieldset id="school_info">
+					<div class="fschool">
+					<p>Which elementary schools do you live near?</p>
+					<label>First Closest School:</label><br>
+					<select name="first_school">
+						<option>Select an option</option>
+						<option>AJ Katzenmaier</option>
+            <option>Greenbay</option>
+            <option>Howard A Yeager</option>
+            <option>Marjorie P Hart</option>
+            <option>North Elementary</option>
+            <option>South Elementary</option>	
+					</select>
+					<br>
+					</div>
+					<div class="sschool">
+					<label>Second Closest School:</label><br>
+					<select name="second_shool">
+						<option>Select an option/option>
+						<option>AJ Katzenmaier</option>
+            <option>Greenbay</option>
+            <option>Howard A Yeager</option>
+            <option>Marjorie P Hart</option>
+            <option>North Elementary</option>
+            <option>South Elementary</option>
+					</select>
+					<br>
+					</div>
+					<div>
+						<p>What position(s) do you normally play? (check all that apply)</p>
+							<label><input type="checkbox" name="position_n">Forward</label>
+							<label><input type="checkbox" name="position_n">Midfield</label><br>
+							<label><input type="checkbox" name="position_n">Defense</label>
+							<label><input type="checkbox" name="position_n">Goalkepper</label>
+						<p>What position(s) do you want to play? (check all that apply)</p>
+							
+							<label><input type="checkbox" name="position_w">Forward</label>
+							<label><input type="checkbox" name="position_w">Midfield</label><br>
+							<label><input type="checkbox" name="position_w">Defense</label>
+							<label><input type="checkbox" name="position_w">Goalkepper</label>
+					</div>
+					<br>
+					<br>
+						
+					<input type="checkbox" name="uniform">
+					<label class="questions">Already Have a Uniform</label>
+					<br>
+					<div class="jersey_size">
+						<p>Jersey Size:</p>
+							<label><input type="radio" name="jersey_size">Youth Small</label>
+							<label><input type="radio" name="jersey_size">Medium</label><br>
+							<label><input type="radio" name="jersey_size">Youth Medium</label>
+							<label><input type="radio" name="jersey_size">Large</label><br>
+							<label><input type="radio" name="jersey_size">Youth Large</label>
+							<label><input type="radio" name="jersey_size">Extra-Large</label><br>
+							<label><input type="radio" name="jersey_size">Small</label>
+					</div>
+					<div class="shorts_size">
+						<p>Shorts Size:</p>
+							<label><input type="radio" name="shorts_size">Youth Small</label>
+							<label><input type="radio" name="shorts_size">Medium</label><br>
+							<label><input type="radio" name="shorts_size">Youth Medium</label>
+							<label><input type="radio" name="shorts_size">Large</label><br>
+							<label><input type="radio" name="shorts_size">Youth Large</label>
+							<label><input type="radio" name="shorts_size">Extra-Large</label><br>
+							<label><input type="radio" name="shorts_size">Small</label>
+					</div>
+					
+			</fieldset>
+			<fieldset>
+				<h3>Permission to Play</h3>
+				<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+					Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+					accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+					employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+					on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+					sponsored activities, which transportation.</p>
+				<p>By signing below, I hereby agree and authorize the above. In addition, by entering yout name below, I also 						acknowledge that I have read the
+					cancellation policy and agree to its terms.</p>
+				<div>
+          <label>Parent/Guardian Signature:<input type="text"></label>
+       
+          <label>Date:<input type="text"></label>
+          
+       	</div>
+			<input type="submit" value="Submit" class="btn">
+			</fieldset>	
+		</form>
+	</section>
+</body>

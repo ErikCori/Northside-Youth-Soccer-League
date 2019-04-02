@@ -1,0 +1,108 @@
+body{
+	background-color: #f4f8fb;
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+h1{
+	background-color: #163856;
+	display: block;
+	padding: 20px 10px 10px 10px;
+	border-radius: 10px;
+	border: 3px solid black;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	height: 100px;
+	margin-top: 100px;
+}
+
+
+h2{
+	color: black;
+	width: 600px;
+	text-align: center;
+	position: relative;
+	margin-left: 400px;
+	font-size: 40px;
+	display: block;
+	border-radius: 5px;
+	padding:10px 10px;
+	border: 2px solid black;
+}
+
+.logo img{
+	width: 200px;
+	margin-top: -450px;
+}
+
+
+.menu a {	
+	display: list-item;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+nav a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #D64A45;
+	padding: 10px 10px;
+	width: 100px;
+	
+}
+.lineas {
+	color: black;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: -750px;
+	margin-bottom: 100px;
+}
+
+section p{
+	margin-left: 300px;
+	font-size: 20px;
+}
+
+h3 {
+	margin-left: 300px;
+  font-size: 25px;
+}
+.september{
+	font-size: 25p;
+	margin-left: 300px;
+	margin-top: -800px;
+}
+.october{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+.locations{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+table#mes th {
+  text-decoration: underline;
+}	
+p{
+	margin-left: 300px;
+	font-size: 18px;
+}
+.rules h3{
+	margin-left: 0px;
+}
+.rules{
+	margin-left: 300px;
+	margin-top: -800px;
+}
+th{
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+}
+td{
+	font-size: 18px;
+	padding: 10px;
+}

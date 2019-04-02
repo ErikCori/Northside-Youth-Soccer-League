@@ -1,0 +1,168 @@
+body{
+	background-color: #f4f8fb;
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+h1{
+	background-color: #163856;
+	display: block;
+	padding: 20px 10px 10px 10px;
+	border-radius: 10px;
+	border: 3px solid black;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	height: 100px;
+	margin-top: 100px;
+}
+
+
+h2{
+	color: black;
+	width: 600px;
+	text-align: center;
+	position: relative;
+	margin-left: 400px;
+	font-size: 40px;
+	display: block;
+	border-radius: 5px;
+	padding:10px 10px;
+	border: 2px solid black;
+}
+
+.logo img{
+	width: 200px;
+	margin-top: -450px;
+}
+
+
+.menu a {	
+	display: list-item;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+nav a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #D64A45;
+	padding: 10px 10px;
+	width: 100px;
+	
+}
+.lineas {
+	color: black;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: -900px;
+	margin-bottom: 100px;
+}
+
+section p{
+	margin-left: 300px;
+	font-size: 20px;
+}
+
+h3 {
+	margin-left: 300px;
+  font-size: 25px;
+}
+.september{
+	font-size: 25p;
+	margin-left: 300px;
+	margin-top: -900px;
+}
+.october{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+.locations{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+#mes_september th,
+#mes_october th{
+  text-decoration: underline;
+}	
+
+p{
+	margin-left: 300px;
+	font-size: 18px;
+}
+.rules h3{
+	margin-left: 0px;
+}
+.rules{
+	margin-left: 300px;
+	margin-top: -900px;
+}
+th{
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+}
+td{
+	font-size: 18px;
+	padding: 10px;
+}
+/* DISEÑO REGISTRATION */
+form{
+	width: 80%;
+	margin-left: 15%;
+	margin-top: -70%;
+}
+fieldset{
+	width: 90%;
+	
+}
+fieldset h3{
+	margin-left: 0;
+	font-size: 100%;
+	text-decoration: underline;
+}
+fieldset p{
+	margin-left: 0;
+}
+.questions{
+	font-weight: bold;
+}
+ div p{
+	font-weight: bold;
+}
+.sschool{
+	margin-top: -5%;
+	margin-left: 40%;
+}
+.shorts_size{
+	margin-left: 40%;
+	margin-top: -15%;
+}
+/*Game loations*/
+#gameLocations{
+	width: 80%;
+}
+#gameLocations h2{
+	text-align: center;
+}
+#gameLocations div{
+	display: inline-block;
+	width: 50%;
+}
+#gameLocations div h3{
+	text-align: center;
+}
+#greenbay{
+	margin-left: 60%;
+	margin-top: -60%;
+}
+#marjorie{
+	margin-left: 60%;
+	margin-top: -60%;
+}
+#south{
+	margin-left: 60%;
+	margin-top: -60%;
+}

@@ -1,0 +1,56 @@
+body {
+  	background-color:darkseagreen;
+  	font-family: cursive;
+  	font-size: 20px;
+}
+
+header {
+  	background-image: url(design1_image1.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: top;
+  	position: relative;
+  	padding: 100px;
+  	width: 1135px;
+  	height: 260px;
+  	border-color: black;
+  	border-width: thick;
+}
+h1 {
+  	font-family: cursive;
+  	font-size: 35pt;
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+}
+
+h2 {
+  	background-color: black;
+  	font-size: 30px;
+  	text-align: center;
+  	position: relative;
+  	color: white;
+  	margin: auto;
+  	width: 100%;
+}
+
+
+
+.logo img {
+  	position: relative;
+  	width: 15%;
+  	margin-left: 1000px;
+  	margin-top: -130px;
+}
+
+div li {
+  	margin-top: 50px;
+}
+
+.lineas {
+	display: list-item;	
+  	margin-left: 300px;
+  	margin-top: -200px;
+}
+
+
